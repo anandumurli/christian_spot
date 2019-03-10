@@ -16,6 +16,8 @@
 		65D2AEAF22329427002938A9 /* favouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEAE22329427002938A9 /* favouritesVC.swift */; };
 		65D2AEB122329441002938A9 /* songsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEB022329441002938A9 /* songsVC.swift */; };
 		65D2AEB322329465002938A9 /* sliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEB222329465002938A9 /* sliderVC.swift */; };
+		65D2AEB72234DBB8002938A9 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEB62234DBB8002938A9 /* AuthVC.swift */; };
+		65D2AEB92234E3DB002938A9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEB82234E3DB002938A9 /* LoginVC.swift */; };
 		A9591CF399E9ECB0D411F407 /* Pods_christian_spot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3F2DA1A98744E4187C1BBD /* Pods_christian_spot.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		65D2AEAE22329427002938A9 /* favouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favouritesVC.swift; sourceTree = "<group>"; };
 		65D2AEB022329441002938A9 /* songsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songsVC.swift; sourceTree = "<group>"; };
 		65D2AEB222329465002938A9 /* sliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sliderVC.swift; sourceTree = "<group>"; };
+		65D2AEB62234DBB8002938A9 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		65D2AEB82234E3DB002938A9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A01B5326309D5F2CEAADFBE2 /* Pods-christian_spot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-christian_spot.release.xcconfig"; path = "Pods/Target Support Files/Pods-christian_spot/Pods-christian_spot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,8 @@
 				65D2AEAE22329427002938A9 /* favouritesVC.swift */,
 				65D2AEB022329441002938A9 /* songsVC.swift */,
 				65D2AEB222329465002938A9 /* sliderVC.swift */,
+				65D2AEB62234DBB8002938A9 /* AuthVC.swift */,
+				65D2AEB82234E3DB002938A9 /* LoginVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			files = (
 				65D2AEB122329441002938A9 /* songsVC.swift in Sources */,
 				65D2AE9622328EB6002938A9 /* ParentVC.swift in Sources */,
+				65D2AEB92234E3DB002938A9 /* LoginVC.swift in Sources */,
 				65D2AE9422328EB6002938A9 /* AppDelegate.swift in Sources */,
 				65D2AEAF22329427002938A9 /* favouritesVC.swift in Sources */,
+				65D2AEB72234DBB8002938A9 /* AuthVC.swift in Sources */,
 				65D2AEAD22328FF0002938A9 /* SWRevealViewController.m in Sources */,
 				65D2AEB322329465002938A9 /* sliderVC.swift in Sources */,
 			);
@@ -411,13 +419,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2X86YAY9S6;
+				DEVELOPMENT_TEAM = M674LH9ATQ;
 				INFOPLIST_FILE = christian_spot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "in.emilda.christian-spot";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emilda.christian-spot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "christian_spot/supportingFiles/christian_spot-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -433,13 +441,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2X86YAY9S6;
+				DEVELOPMENT_TEAM = M674LH9ATQ;
 				INFOPLIST_FILE = christian_spot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "in.emilda.christian-spot";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emilda.christian-spot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "christian_spot/supportingFiles/christian_spot-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
