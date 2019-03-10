@@ -18,6 +18,7 @@
 		65D2AEB322329465002938A9 /* sliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEB222329465002938A9 /* sliderVC.swift */; };
 		65D2AEB72234DBB8002938A9 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEB62234DBB8002938A9 /* AuthVC.swift */; };
 		65D2AEB92234E3DB002938A9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEB82234E3DB002938A9 /* LoginVC.swift */; };
+		65D2AEBB22350CA0002938A9 /* customplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2AEBA22350CA0002938A9 /* customplace.swift */; };
 		A9591CF399E9ECB0D411F407 /* Pods_christian_spot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3F2DA1A98744E4187C1BBD /* Pods_christian_spot.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		65D2AEB222329465002938A9 /* sliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sliderVC.swift; sourceTree = "<group>"; };
 		65D2AEB62234DBB8002938A9 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		65D2AEB82234E3DB002938A9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		65D2AEBA22350CA0002938A9 /* customplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customplace.swift; sourceTree = "<group>"; };
 		A01B5326309D5F2CEAADFBE2 /* Pods-christian_spot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-christian_spot.release.xcconfig"; path = "Pods/Target Support Files/Pods-christian_spot/Pods-christian_spot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 		65D2AEA722328EED002938A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				65D2AEBA22350CA0002938A9 /* customplace.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D2AEBB22350CA0002938A9 /* customplace.swift in Sources */,
 				65D2AEB122329441002938A9 /* songsVC.swift in Sources */,
 				65D2AE9622328EB6002938A9 /* ParentVC.swift in Sources */,
 				65D2AEB92234E3DB002938A9 /* LoginVC.swift in Sources */,

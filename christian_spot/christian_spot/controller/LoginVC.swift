@@ -17,6 +17,9 @@ class LoginVC: UIViewController {
     }
     
 
+    @IBAction func signUpBut(_ sender: Any) {
+        self.view.endEditing(true)
+    }
     /*
     // MARK: - Navigation
 
